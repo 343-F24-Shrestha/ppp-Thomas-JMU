@@ -1,5 +1,5 @@
 html {
-    background-color: white;
+    background-color: rgb(173, 252, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,9 +7,14 @@ html {
 }
 
 header {
+    background-color: rgb(255, 255, 255);
     align-items: center;
     display: flex;
     flex-direction: column;
+    border: 5px;
+    border-color: black;
+    border-radius: 20%;
+    padding: 20px;
 }
 
 img {
@@ -26,5 +31,11 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: medium;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
 
